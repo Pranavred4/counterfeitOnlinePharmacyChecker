@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Counterfeit Cross Checker",
+    "version": "1.0.0",
+    "description": "Notifies users of potentially counterfeit pharmaceutical websites.",
+    "icons": {
+      "128": "Counterfeit Logo 128.png",
+      "48": "Counterfeit Logo 128.png",
+      "16": "Counterfeit Logo 128.png"
+    },
+    "action": {
+      "default_icon": "Counterfeit Logo 128.png",
+      "default_popup": "popup.html"
+    },
+    "permissions": [ "tabs" ],
+    "content_scripts": [
+      {
+        "matches": ["http://127.0.0.1/*"],
+        "run_at": "document_end", 
+        "js": ["jquery.min.js", "script.js"],
+        "all_frames": false
+      }
+    ]
+
+  }
