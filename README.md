@@ -2,11 +2,10 @@
 a chrome extension that checks if an online medication seller is authentic.
 
 ## Introduction
----------------
 With thousands of counterfeit pharmacies online, identifying a valid pharmacy takes much research and time. Using this extension, users can save time and energy in their search for proper online pharmacies. Using this extension, a user can be notified whether the site that they are on is safe to buy from, or potentially counterfeit. 
+---------------
 
 ## How To Get Started
-----------------------
 If you would like to test our prototype you can use the following steps:
 
 1. Download the files in this repository, make sure all files in the "Hackathon Chrome Extenstions" folder are downloaded
@@ -19,7 +18,12 @@ If you would like to test our prototype you can use the following steps:
 5. Once this has been done you will be ready to use the extension
 
 NOTE: for testing purposes the only verified website is youtube.com. Ideally this would be applicable to all authentic pharmaceutical websites.
+----------------------
 
 ## Explanation
+
+
+
+
 --------------
 
