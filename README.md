@@ -9,8 +9,8 @@ If you would like to test our prototype you can use the following steps:
 
 1. Download the files in this repository, make sure all files in the "Hackathon Chrome Extenstions" folder are downloaded
 2. Once dowloaded, open the folder with your prefered IDE (the IDE used is Visual Studio Code). 
-3. Now, we must download the Express Module for the execution of the chrome extentions, this is done my using the following command within a terminal:  ''
-3. Now, access the terminal within your chosen IDE and run the following command: ''
+3. Now, we must download the Express Module for NodeJS for the execution of the chrome extentions, this is done my using the following command within a terminal:'$ npm install express --save'
+3. Now, access the terminal within your chosen IDE and run the following command: 'node server.js'
 4. Once you run this command, you will now need to upload all of the downloaded files to google chrome. 
 * 4a: Go to the extension button on the top right (puzzle button) and click on manage extensions
 * 4b: On the top right corner press the button: 'Load Unpacked File'
